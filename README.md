@@ -1,4 +1,4 @@
- # Android App Documentation
+# Android App Documentation
 
 ## Overview
 
@@ -9,6 +9,31 @@ This Android app has been developed by **myself** using **ChatGPT** in conjuncti
 - **Java Programming Language**
 - **ChatGPT** (used for code generation and guidance)
 - **Android SDK** (customized for the app)
+
+## Development Environment and Version Requirements
+
+For this project to work correctly, **specific versions** of various tools and plugins are required. The following configurations are necessary to ensure that the app functions as intended:
+
+- **Android Studio Version**: **2020.3.1.4**
+  - This is the only version of Android Studio that the app supports.
+  
+- **Gradle JDK**: **JBR 17** (JetBrains Runtime version 17.0.4)
+  - The app requires **JBR 17** for compatibility with the Gradle build system.
+  
+- **Android Gradle Plugin Version**: **8.0.0-alpha11**
+  - This version of the Android Gradle Plugin is required for building and managing the app.
+
+- **Gradle Version**: **7.6**
+  - The app is designed to work specifically with **Gradle 7.6** for building and dependencies management.
+
+- **Compile SDK Version**: **33** (Android 13.0)
+  - The app targets **Android 13.0 (API Level 33)**, so the compile SDK must be set to version **33**.
+
+### Why These Versions Matter:
+- **Android Studio 2020.3.1.4** is the version I used to develop the app, and using a different version may lead to compatibility issues.
+- The specific **Gradle JDK** and **Android Gradle Plugin** versions are required to avoid potential build errors and to ensure smooth integration with Android's build system.
+- Using **Gradle 7.6** ensures proper dependency resolution and efficient builds during development.
+- The **Compile SDK Version 33** ensures that the app is developed with Android 13.0 features and APIs.
 
 ## Purpose of Using ChatGPT
 
@@ -98,3 +123,4 @@ As I am the sole developer of this app, contributions are not open at the moment
 This app is the result of integrating modern tools and AI assistance, such as **ChatGPT**, combined with traditional Android development practices in **Java**. By leveraging ChatGPT for code generation, I was able to accelerate the development process and focus on creating a more functional, polished app.
 
 I encourage other developers to explore using AI tools to assist with coding, improving productivity, and enhancing the development experience.
+
